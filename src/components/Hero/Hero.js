@@ -9,11 +9,11 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
-        </SectionTitle>
+          There is only one <br />
+          Kianoush ️
+        </SectionTitle>☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝🔥☝
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        Motivated and driven to be the best he can be, not only in his profession, but at life. To be balanced in every aspect of life, and be as great as he can be, is a main goal in the life of Kianoush. With the last name Ranjbar, meaning "hard worker" he strives everyday to live up to the last name.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
