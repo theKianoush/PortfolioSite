@@ -26,24 +26,19 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/theKianoush">
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://google.com">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.youtube.com/channel/UCZJwCA0_DVeAbs6ijQr7-xw/featured">
           <AiFillYoutube size="3rem"/>
         </SocialIcons>
       </Div3>
