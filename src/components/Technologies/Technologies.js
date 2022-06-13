@@ -1,53 +1,75 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiApple, DiPython, DiDatabase } from 'react-icons/di';
+import {  SiMicrosoftexcel, SiWebassembly } from 'react-icons/Si';
+import {  BiNetworkChart } from 'react-icons/Bi';
+import {  GiCircuitry } from 'react-icons/Gi';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Technologies I've Used</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I have learned many tools and acquired many skills throughout my school career.
+      Here is just a list of some main topics I've covered.
     </SectionText>
     <List>
+
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiDatabase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
+          <ListTitle>Data Structures & Algorithms</ListTitle>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <GiCircuitry size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
+          <ListTitle>Logic Design & Circuits</ListTitle>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <SiWebassembly size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
+          <ListTitle>Assembly Language</ListTitle>
         </ListContainer>
       </ListItem>
+
+      <ListItem>
+        <picture>
+          <BiNetworkChart size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Computer Protocols & Networks</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <picture>
+          <SiMicrosoftexcel size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Microsoft Excel</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <picture>
+          <DiPython size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Data Science with Python</ListTitle>
+        </ListContainer>
+      </ListItem>
+
     </List>
     <SectionDivider colorAlt />
   </Section>
