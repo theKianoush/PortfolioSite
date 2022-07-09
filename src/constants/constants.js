@@ -34,8 +34,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { best: 'first love', text: 'Started my journey' },
-  { best: 'favorite sport', text: 'Worked as a freelance developer', },
-  { best: 'hoen doe', text: 'Founded JavaScript Mastery', },
-  { best: 'all day', text: 'Shared my projects with the world', },
+  { year: 2018, text: "Started my college journey and I didn't really know what I wanted to do", },
+  { year: 2019, text: 'Declared my major as Computer Engineering, because I always loved computers and my father is an electrical engineer', },
+  { year: 2020, text: 'Changed my major to Computer Science, because I enjoyed programming so much more than circuits', },
+  { year: 2021, text: 'Was introduced to the world of Computer Networks and fell in love with I.T.', }
 ];

@@ -9,10 +9,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies I've Used</SectionTitle>
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have learned many tools and acquired many skills throughout my school career.
-      Here is just a list of some main topics I've covered.
+      Here are a few topics I am well versed in.
     </SectionText>
     <List>
 

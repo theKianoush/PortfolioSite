@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Currently a senior at the University of Denver Colorado. My goal is to make it to a top company in either Software Development or I.T. or maybe a role that will allow me to utilize both, like DevOps, or even more intriguing DevSecOps (same thing, but with focus on security). Whatever it is I am very excited to get my foot in the door and learn from this industry.
+      Currently a senior at the University of Denver Colorado. My goal is to make it to a top company in either Software Development or Cybersecurity or maybe a role that will allow me to utilize both, like DevSecOps. Whatever it is I am very excited to get my foot in the door and learn from this industry.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -60,7 +60,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
-                  {`${item.best}`}
+                  {`${item.year}`}
                   <CarouselItemImg
                     width="208"
                     height="6"

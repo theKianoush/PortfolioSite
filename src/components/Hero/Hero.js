@@ -9,6 +9,7 @@ import {NavLink} from "../Header/HeaderStyles";
 const Hero = (props) => (
   <>
     <Section row nopadding>
+      <title>theKianoush</title>
       <LeftSection>
         <SectionTitle main center>
           There is only one <br />
